@@ -5,7 +5,7 @@
 
 # Reporting for WinForms - Override the Default Isolation Level 
 
-The following example shows how to override the default (READ COMMITTED) isolation level in a specific query to allow the user to retrieve the data without being locked on the requested data by another process that modifies it. In this way, the query consumes less memory to lock this data.
+The following example shows how to override the default isolation level (READ COMMITTED) in a specific query to allow the user to retrieve the data without being locked on the requested data by another process that modifies it. In this way, the query consumes less memory to lock this data.
 
 ## Example Overview
 
