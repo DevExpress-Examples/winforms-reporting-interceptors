@@ -23,3 +23,8 @@ This example shows how to override the default isolation level (READ COMMITTED) 
 ## More Examples 
 
 [Reporting for ASP NET.Core - Implement Row-Level Security](https://github.com/DevExpress-Examples/asp-net-core-reporting-row-level-security)
+
+##  Documentation 
+
+* [IDBConnectionInterceptor](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.Sql.IDBConnectionInterceptor)
+* [IDBCommandInterceptor](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.Sql.IDBCommandInterceptor)
