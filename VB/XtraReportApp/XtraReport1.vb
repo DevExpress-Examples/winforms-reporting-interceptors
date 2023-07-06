@@ -1,4 +1,4 @@
-﻿Imports DevExpress.XtraReports.UI
+Imports DevExpress.XtraReports.UI
 Imports System
 Imports System.Collections
 Imports System.ComponentModel

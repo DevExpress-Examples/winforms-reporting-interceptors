@@ -1,12 +1,13 @@
-﻿Imports DevExpress.DataAccess.Sql
+Imports DevExpress.DataAccess.Sql
 Imports System.Data
 
 Namespace XtraReportApp
 	Friend Class NolockInterceptor
-		Inherits IDBCommandInterceptor
+		Implements IDBCommandInterceptor
 
-		Public Sub CommandCreated(ByVal queryName As String, ByVal command As IDbCommand)
+		Public Sub CommandCreated(ByVal queryName As String, ByVal command As IDbCommand) Implements IDBCommandInterceptor.CommandCreated
 			command.CommandText &= " WITH (NOLOCK)"
 		End Sub
+
 	End Class
 End Namespace

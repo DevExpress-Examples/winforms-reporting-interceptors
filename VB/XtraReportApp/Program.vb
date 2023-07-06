@@ -1,4 +1,4 @@
-﻿Imports DevExpress.LookAndFeel
+Imports DevExpress.LookAndFeel
 Imports DevExpress.Skins
 Imports DevExpress.UserSkins
 Imports System

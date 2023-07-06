@@ -1,4 +1,4 @@
-﻿Imports DevExpress.DataAccess.Sql
+Imports DevExpress.DataAccess.Sql
 Imports System
 
 Namespace XtraReportApp
